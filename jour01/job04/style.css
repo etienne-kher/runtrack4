@@ -47,12 +47,12 @@
 
 	.menu .burger:before
 	{
-  		content:'menu';
+  		content:'Menu';
 	}
 
 	.menu .burger:checked:before
 	{
-	  content:'menu(recliker pour fermer)';
+	  content:'Menu(recliker pour fermer)';
 	}
 
 	.menu .burger:checked + nav
