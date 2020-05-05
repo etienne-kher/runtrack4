@@ -29,7 +29,7 @@
         </form>
       </section>
     <footer class="row yellow">
-      <a href="index.php" class="col s3 center">Accueil</a> <a  class="col s3 center" href="index.php">Inscription</a> <a class="col s3 center" href="index.php">Connexion</a> <a  class="col s3 center" href="index.php">Rechercher</a>
+      <a href="index.php" class="col s3 center white-text">Accueil</a> <a  class="col s3 center white-text" href="index.php">Inscription</a> <a class="col s3 center white-text" href="index.php">Connexion</a> <a  class="col s3 center white-text" href="index.php">Rechercher</a>
     </footer>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     </body>
