@@ -81,7 +81,7 @@ le sens le plus courant désigne notre planète, la Terre,avec ses habitants et 
 
         }
       </script>
-			<div class="spinner-border text-info" role="status">
+			<div id="cerc" class="spinner-border text-info" role="status">
  				<span class="sr-only">Loading...</span>
  			</div>
 		</div>
@@ -252,7 +252,7 @@ le sens le plus courant désigne notre planète, la Terre,avec ses habitants et 
     		<input type="checkbox" class="form-check-input" id="exampleCheck1">
     		<label class="form-check-label" for="exampleCheck1">Check me out</label>
   		</div>
-  		<button type="submit" class="btn btn-primary">Submit</button>
+  		<button onclick="g()" type="submit" class="btn btn-primary">Submit</button>
 	</form>
 </div>
 </section>
@@ -322,6 +322,28 @@ le sens le plus courant désigne notre planète, la Terre,avec ses habitants et 
 
         $("#dgc").modal("show");
       }
+  }
+
+  function g()
+  {
+    mail=$('#exampleInputEmail1').val();
+    mmdp=$('#exampleInputPassword1').val();
+    if(mail!=""&&mmdp!="")
+    {
+       tab=[
+          "text-danger",
+          "text-secondary",
+          "text-success",
+          "text-warning",
+          "text-info",
+          "text-dark",
+          "text-info",
+          "text-primary"
+          ];
+          x=Math.round(Math.random() * 7);
+          window.document.getElementById("cerc").classList="spinner-border";
+          window.document.getElementById("cerc").classList.add(tab[x]);
+    }
   }
 </script>
 
